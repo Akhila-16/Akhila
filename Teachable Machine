@@ -5,7 +5,7 @@
     "colab": {
       "name": "Untitled34.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyNKlLy+aGWdk+xaiOfjtWIo",
+      "authorship_tag": "ABX9TyOg8vT/3OjDBUm5egQmoObA",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -27,12 +27,7 @@
     {
       "cell_type": "code",
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 128
-        },
-        "id": "0TijUSwWmTJR",
-        "outputId": "a0de9733-f4b2-4a0b-c9bb-11693bd6abe5"
+        "id": "cwRRM3E6nSCv"
       },
       "source": [
         "<div>Teachable Machine Image Model</div>\r\n",
@@ -46,7 +41,7 @@
         "    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image\r\n",
         "\r\n",
         "    // the link to your model provided by Teachable Machine export panel\r\n",
-        "    const URL = \"{{URL}}\";\r\n",
+        "    const URL = \"./my_model/\";\r\n",
         "\r\n",
         "    let model, webcam, labelContainer, maxPredictions;\r\n",
         "\r\n",
@@ -93,19 +88,10 @@
         "            labelContainer.childNodes[i].innerHTML = classPrediction;\r\n",
         "        }\r\n",
         "    }\r\n",
-        "</script>"
+        "</script>\r\n"
       ],
-      "execution_count": 1,
-      "outputs": [
-        {
-          "output_type": "error",
-          "ename": "SyntaxError",
-          "evalue": "ignored",
-          "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-447fa7b18df5>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    <div>Teachable Machine Image Model</div>\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
